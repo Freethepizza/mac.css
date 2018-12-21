@@ -16,6 +16,11 @@ $(function () {
 });
 
 
+$(document).ready(function() {
+    $('[id^="drag-"').draggable({stack: "div",distance:0,})
+    .resizable({stack: "div"});
+
+});
 
 
 
