@@ -1,12 +1,20 @@
 let principal = ".dotted";
+
+
+
+
+
 $(function () {
-    $("#draggable").draggable({
+    $('[id^="drag-"]').draggable({
         containment: principal,
     }).resizable({
         containment: principal,
         minWidth: 150,
         minHeight: 150,
     });
-
 });
+
+
+
+
 
